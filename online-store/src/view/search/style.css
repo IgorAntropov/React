@@ -1,0 +1,11 @@
+.search input {
+    background-color: var(--hover-bg-color);
+    border-radius: 5px;
+    border: 0;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.search input::placeholder {
+    color: white;
+}

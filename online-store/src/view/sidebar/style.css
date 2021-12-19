@@ -1,0 +1,47 @@
+.sidebar {
+    width: 100%;
+    height: 100%;
+    background-color: var(--hover-bg-color);
+    color: white;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sidebar .group {
+    width: 90%;
+    flex-direction: column;
+}
+
+.sidebar .group:first-child {
+    margin: 15px 0;
+}
+
+.sidebar .group:not(:first-child) {
+    margin: 0 0 15px 0;
+}
+
+.sidebar .group .group-item,
+.sidebar .group span {
+    height: 30px;
+}
+
+.sidebar .group .group-item {
+    margin: 5px;
+}
+
+.sidebar .group .group-item,
+.sidebar .group span {
+    width: 70%;
+}
+
+.sidebar .group span:hover {
+    cursor: pointer;
+    background-color: var(--main-bg-color);
+    border-radius: 15px;
+}
+
+.sidebar .group .group-item:hover {
+    cursor: pointer;
+    background-color: var(--hover-bg-color);
+    border-radius: 15px;
+}

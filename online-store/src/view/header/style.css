@@ -1,0 +1,50 @@
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+.header .logo {
+    flex: 20%;
+    cursor: pointer;
+}
+
+.header .logo h3 {
+    margin-right: 5px;
+}
+
+.header .menu {
+    flex: 80%;
+}
+
+.header .menu>div {
+    padding: 5px;
+}
+
+.header .menu>div:first-child {
+    margin-left: 10px;
+}
+
+.header .menu>div:not(:last-child) {
+    margin-right: 15px;
+}
+
+.header .menu>div:hover {
+    cursor: pointer;
+    background-color: var(--hover-bg-color);
+    border-radius: 5px;
+}
+
+.header .menu span {
+    margin-right: 5px;
+}
+
+.header input:focus {
+    outline:none;
+}
+
+.header input {
+    color: white;
+    padding-left: 15px;
+}
