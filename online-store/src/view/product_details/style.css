@@ -1,0 +1,37 @@
+.product-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-container .general-info {
+    flex-direction: row;
+    width: 100%;
+}
+
+.product-container .general-info>div {
+    width: 100%;
+}
+
+.product-container .general-info .product-images {
+    flex: 30%;
+}
+
+.product-container .general-info .product-description {
+    flex: 70%;
+    flex-direction: column;
+}
+
+.product-container .general-info .product-description .add-to-shopping-cart {
+    margin: 5px;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+    background-color: #10c810;
+    color: white;
+    border: 1px solid #0b770b;
+    cursor: pointer;
+}
